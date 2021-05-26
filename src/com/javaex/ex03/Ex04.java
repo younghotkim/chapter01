@@ -17,8 +17,20 @@ public class Ex04 {
 		}
 		
 		else {
-			System.out.println("임금은" + (80000+(t-8)*12000) + "원 입니다.");
+			System.out.println("임금은 " + (80000+(t-8)*12000) + "원 입니다.");
 		}
+		
+		/* int = sum
+		 * 
+		 * iF(t > 8) {
+		 * sum = 80000 + (t-8)*12000
+		 * Sytem.out.println(sum);
+		 * 
+		 * else {
+		 * 	sum = t*10000
+		 * Sysout(sun);
+		 * 
+		 */
 		
 		sc.close();
 

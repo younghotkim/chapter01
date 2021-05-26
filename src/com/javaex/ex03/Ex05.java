@@ -17,8 +17,12 @@ public class Ex05 {
 		}
 		
 		else {
-			System.out.print("임금은" + (80000+(t-8)*15000) + "원 입니다.");
+			System.out.print("임금은" + (int)(80000+(t-8)*(10000*1.5)) + "원 입니다.");
 		}
+		
+		//형변환
+		
+		
 		
 		
 		sc.close();
